@@ -3,11 +3,11 @@ jquery.dataform
 
 Build & update html form with data.
 
-### usage
+### Usage
 ``` javascript
 
 /* elements/input.js */
-DataForm.registerElement('input', function(attr) {
+DataForm.registerElement('input', function(attr) { // render method, returh html string
   name = attr.name;
   label = attr.label;
   value = attr.value || '';
