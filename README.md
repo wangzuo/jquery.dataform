@@ -6,6 +6,11 @@ Build & update html form with data.
 ### Usage
 ``` javascript
 
+//
+// Define form elements with DataForm.registerElement
+// More samples can be found in the elements directory
+//
+
 /* elements/input.js */
 DataForm.registerElement('input', function(attr) { // render method, return html string
   name = attr.name;
