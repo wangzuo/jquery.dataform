@@ -7,7 +7,7 @@ Build & update html form with data.
 ``` javascript
 
 /* elements/input.js */
-DataForm.registerElement('input', function(attr) { // render method, returh html string
+DataForm.registerElement('input', function(attr) { // render method, return html string
   name = attr.name;
   label = attr.label;
   value = attr.value || '';
