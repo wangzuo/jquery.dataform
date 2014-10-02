@@ -1,7 +1,7 @@
 jquery.dataform
 ===============
 
-Build & update html form with data.
+Build & manipulate html form with data.
 
 ### Usage
 ``` javascript
