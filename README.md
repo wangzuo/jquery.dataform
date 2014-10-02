@@ -24,7 +24,14 @@ var f = new DataForm([
   console.log(name, 'change to', value);
 });
 
+// add form to dom
+$wrap.append(f.$el);
+
+// get dataform instance
+f = $wrap.find('form').data('dataform');
+
 var res = f.getData();
 f.setData({test: 'hello world'});
+
 
 ```
