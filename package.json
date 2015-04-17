@@ -1,6 +1,6 @@
 {
   "name": "jquery.dataform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Html form with json data",
   "main": "jquery.dataform.js",
   "scripts": {
