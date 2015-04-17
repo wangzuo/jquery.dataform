@@ -1,8 +1,8 @@
 var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 
-gulp.task('build', function() {
+gulp.task('default', function() {
   return gulp.src('./jquery.dataform.js')
     .pipe(uglify())
-    .pipe(gulp.dest('dist/jquery.dataform.js'));
+    .pipe(gulp.dest('dist'));
 });

@@ -1,11 +1,8 @@
-jquery.dataform
-===============
+#jquery.dataform
+Html form with json data
 
-Build & manipulate html form with data.
-
-### Usage
+## Usage
 ``` javascript
-
 //
 // Define form elements with DataForm.registerElement
 // More samples can be found in the elements directory
@@ -35,8 +32,6 @@ $wrap.append(f.$el);
 // get dataform instance
 f = $wrap.find('form').data('dataform');
 
-var res = f.getData();
-f.setData({test: 'hello world'});
-
-
+var res = f.getData(); // get form data
+f.setData({test: 'hello world'}); // set form data
 ```
