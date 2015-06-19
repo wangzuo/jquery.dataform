@@ -21,7 +21,7 @@ DataForm.registerElement('input', function(attr) { // render method, return html
 });
 
 var f = new DataForm([
-  { type: 'Input', name: 'test', label: 'test' }
+  { type: 'input', name: 'test', label: 'test' }
 ], function(name, value) { // onchange callback
   console.log(name, 'change to', value);
 });
