@@ -9,7 +9,7 @@ test('Basic test with input element', function(assert) {
     obj[name] = value;
   });
 
-  assert.deepEqual(f.html, '<form class="j-dataform"><div class="j-dataform-el" data-type="input" data-name="test"><label>test</label><input name="test" type="text" value=""></div></div>', 'render() correct');
+  assert.deepEqual(f.html, '<form class="j-dataform"><div class="j-dataform-el" data-type="input" data-name="test"><label>test</label><input name="test" type="text" value=""></div></form>', 'render() correct');
   assert.deepEqual(f.getData().test, '', 'getData() correct');
 
   var str = 'hello world';
