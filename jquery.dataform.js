@@ -23,7 +23,7 @@ proto.build = function() {
       '" data-name="'+attr.name+'">'+this.renderElement(attr)+'</div>';
   }.bind(this)).join('');
 
-  this.html = '<form class="j-dataform">'+els+'</div>';
+  this.html = '<form class="j-dataform">'+els+'</form>';
   this.$el = $(this.html);
   this.$el.data('dataform', this);
 };
