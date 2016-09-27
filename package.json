@@ -10,7 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.8.11",
-    "gulp-uglify": "^1.2.0"
+    "gulp-uglify": "^2.0.0"
   },
   "repository": {
     "type": "git",
